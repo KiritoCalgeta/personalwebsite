@@ -50,3 +50,7 @@ nav ul li a:hover{
 span{
     color: #ff4321;
 }
+.info p{
+color: #606163;
+line-height: 22px;
+}
