@@ -24,7 +24,9 @@
 
 nav ul{
     flex: 1;
-    text-align: right;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
 }
 
 
