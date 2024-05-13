@@ -7,7 +7,7 @@
 <body>
     <div class="hero">
         <nav>
-            <img src="images/Cal Usher.png" class="logo">
+            <img src="images/logo-light.png" class="logo" id="logo">
             <ul>
                 <li><a href="">HOME</a></li>
                 <li><a href="">ABOUT</a></li>
@@ -38,12 +38,16 @@
 
 <script>
     var icon = document.getElementById("icon");
+    var logo = document.getElementById("logo");
+
     icon.onclick = function(){
         document.body.classList.toggle("dark-theme");
         if(document.body.classList.contains("dark-theme")){
             icon.src = "images/sun.png";
+            logo.src = "images/logo-dark.png";
         }else{
             icon.src = "images/moon.png";
+            logo.src = "images/logo-light.png";
         }
 }
 
