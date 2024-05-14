@@ -85,7 +85,7 @@ line-height: 22px;
 }
 
 .info a{
-    background: var(--scondary-color);
+    background: var(--secondary-color);
     padding: 10px 18px;
     text-decoration: none;
     color: var(--primary-color);
