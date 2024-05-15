@@ -80,12 +80,22 @@ nav ul li a:hover{
     color: var(--secondary-color);
     margin-bottom: 20px;
 }
-span{
+.span1{
     color: #ff4321;
 }
 .info p{
 color: var(--secondary-color);
 line-height: 22px;
+font-size: 25px;
+font-family: "Teko", sans-serif;
+}
+
+.span2{
+    color: blue;
+}
+
+.span3{
+    color: blueviolet;
 }
 
 .info a{
