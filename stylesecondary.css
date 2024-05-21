@@ -70,3 +70,18 @@ nav ul li a{
 nav ul li a:hover{
     color: #ff4321;
 }
+
+.about h1{
+    font-size: 50px;
+    color: var(--secondary-color);
+    margin-bottom: 10px;
+    padding-left: 30px;
+}
+
+.about p{
+    color: var(--secondary-color);
+    line-height: 22px;
+    font-size: 20px;
+    font-family: "Teko", sans-serif;
+    padding-left: 20px;
+    }
